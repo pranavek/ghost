@@ -142,7 +142,7 @@ main-nav a,
 
 h4, h5, h6,
 .older-posts, .newer-posts{
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 900;
 }
 
