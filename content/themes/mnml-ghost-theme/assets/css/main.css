@@ -151,7 +151,7 @@ h4{
 }
 
 a {
-  color: #FFCC00;/*#dd4814;*/
+  color: #00C78C;/*#dd4814;*/
   transition: color ease 0.3s;
 }
 a:hover, a:active, a.active{
