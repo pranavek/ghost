@@ -11,7 +11,7 @@ if (process.env.OPENSHIFT_MYSQL_DB_HOST != undefined) {
         // When running Ghost in the wild, use the production environment
         // Configure your URL and mail settings here
         production: {
-            url: 'http://blog-blog-pranavek.a3c1.starter-us-west-1.openshiftapps.com', //'http://'+process.env.OPENSHIFT_APP_DNS,
+            url: 'http://'+process.env.OPENSHIFT_APP_DNS,
             mail: {},
             database: {
                 client: 'mysql',
